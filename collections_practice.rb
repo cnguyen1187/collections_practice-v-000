@@ -28,3 +28,11 @@ def kesha_maker(array)
     new_array << i
   end
 end
+
+def find_a(array)
+  array.find_all {|a| a[0] == "a" }
+end
+
+def sum_array(array)
+  array.inject(0) {|memo, i| memo + i}
+end
